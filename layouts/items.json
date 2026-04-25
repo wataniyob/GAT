@@ -10,8 +10,9 @@
                 "rows": [
                     [
                         "total",
+                        "bit",
                         "golden",
-                        "anti"
+                        "anti",
                     ],
                     [
                         "love",
@@ -31,7 +32,8 @@
                 "rows": [
                     [
                         "goal",
-                        "clock_shuffle"
+                        "clock_shuffle",
+                        "autoswitch"
                     ]
                 ]
             }

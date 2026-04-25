@@ -23,6 +23,25 @@ local function updateTotal()
     t.AcquiredCount = g.AcquiredCount + a.AcquiredCount
 end
 
+-- Update Golden count after collecting enough bits
+local function updateGoldenFromBits()
+	local g = Tracker:FindObjectForCode("golden")
+	local b = Tracker:FindObjectForCode("bit")
+	
+	if not g or not b then
+        return
+    end
+	
+	if b.AcquiredCount >= 8 then
+		local wholeCubesInBits = b.AcquiredCount // 8
+		b.AcquiredCount = b.AcquiredCount - (wholeCubesInBits*8)
+		g.AcquiredCount = g.AcquiredCount + wholeCubesInBits
+	end
+	
+	updateTotal()
+end
+
 ScriptHost:AddWatchForCode("WatchGolden", "golden", updateTotal)
 ScriptHost:AddWatchForCode("WatchAnti", "anti", updateTotal)
+ScriptHost:AddWatchForCode("WatchBit", "bit", updateGoldenFromBits)
 ScriptHost:AddWatchForCode("PreventTotal", "total", updateTotal)
