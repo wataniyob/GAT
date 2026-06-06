@@ -171,7 +171,7 @@ LOCATIONS = {
     { "@Boileroom/Anti-Cube\nUp RT Left A Right LT Down RT" },
     { "@Nu Zu School/Anti-Cube\nUp Left RT A LT Right A Down" },
     { "@Zu Heads/Anti-Cube" },
-    { "@Sewer QR/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT" },
+    { "@Others/Throne/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT" },
     { "@Ritual/Black Monolith\nUp RT Up A Down LT Up Down\n\nHeart Cube\nDown Down LT RT RT A Up" },
     { "@Telescope/Telescope Heart Cube\nRT LT LT RT RT LT" },
     { "@Zu Zuish/Security Question Heart Cube" },
