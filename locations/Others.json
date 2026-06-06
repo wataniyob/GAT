@@ -58,6 +58,30 @@
         "name": "Achievement Anti-Cube\nRT RT LT RT RT LT LT LT",
         "chest_unopened_img": "images/icons/anti.png",
         "chest_opened_img": "images/icons/anti_collected.png",
+        "access_rules": ["[know_tetro]", "[skip_knowledge]"]
+      }
+    ],
+    "children": [
+      {
+        "name": "Throne",
+        "item_count": 1,
+        "access_rules": [
+          "total:16",
+          "total:2,bigthrone_room",
+          "total:2,lighthouse_room,rail_room,sewerhub_room"
+        ],
+        "sections": [
+          {
+            "name": "Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT",
+            "chest_unopened_img": "images/icons/anti.png",
+            "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": [
+              "[know_tetro],[nuzu_school],[sunglasses],[total:16],[bigthrone_room]", 
+              "[know_tetro],[nuzu_school],[sewerhub_room],[total:2],[lighthouse_room],[rail_room]", 
+              "[know_tetro],[scrambled_tetro]", 
+              "[skip_knowledge]"]
+          }
+        ]
       }
     ]
   }

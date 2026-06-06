@@ -55,6 +55,10 @@
             "name": "Anti-Cube\nLeft Left Down Down Right Right Up Up",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": [
+              "[know_tetro],[nuzu_school],[sunglasses]", 
+              "[know_tetro],[scrambled_tetro]", 
+              "[skip_knowledge]"]
           },
           {
             "name": "Cube Bit 1",
@@ -198,7 +202,7 @@
             "chest_opened_img": "images/icons/bit_collected.png",
           },
           {
-            "ref": "SEWERS/Sewer QR/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
+            "ref": "Others/Throne/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
           }
         ]
       },
@@ -331,6 +335,7 @@
             "name": "Anti-Cube\nRight RT Left RT RT A A Right",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
           },
           {
             "name": "Telescope Heart Cube\nRT LT LT RT RT LT",
@@ -377,6 +382,7 @@
             "name": "Anti-Cube\nUp A RT LT A Down LT RT",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
           }
         ]
       },
@@ -417,7 +423,7 @@
         "name": "Anti-Cube\nLT A RT Up Down LT RT A",
         "chest_unopened_img": "images/icons/anti.png",
         "chest_opened_img": "images/icons/anti_collected.png",
-        "access_rules": ["[know_tetro]", "[skip_knowledge]"]
+        "access_rules": ["[know_tetro],[nuzu_school],[sunglasses]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
       },
       {
         "name": "Chest",

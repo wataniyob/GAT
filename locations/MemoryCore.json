@@ -135,7 +135,7 @@
             "name": "Anti-Cube\nUp Left RT A LT Right A Down",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
-            "access_rules": ["[know_tetro]", "[skip_knowledge]"]
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
           }
         ]
       }
@@ -241,7 +241,7 @@
             "chest_opened_img": "images/icons/bit_collected.png",
           },
           {
-            "ref": "SEWERS/Sewer QR/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
+            "ref": "Others/Throne/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
           }
         ]
       }
