@@ -32,7 +32,7 @@ local function checkFox()
     Fox.Active = (total.AcquiredCount >= 2)
 end
 
--- -- know tetro is reaching "Code Machine" e.i. 2 cubes + bihthrone door unlock
+-- -- know tetro is reaching "Code Machine" e.i. 2 cubes + bigthrone door unlock
 local function checkKnowTetro()
     local total = Tracker:FindObjectForCode("total")
     local throne = Tracker:FindObjectForCode("bigthrone_room")
@@ -44,7 +44,7 @@ local function checkKnowTetro()
 
     know_tetro.Active = throne.Active and total.AcquiredCount >= 2
 end
-ScriptHost:AddWatchForCode("checkTetroKnowkedge", "bigthrone_room", checkKnowTetro)
+ScriptHost:AddWatchForCode("checkTetroKnowledge", "bigthrone_room", checkKnowTetro)
 
 -- -- nuzu_school is 8 cubes
 local function checknuzu_school()
