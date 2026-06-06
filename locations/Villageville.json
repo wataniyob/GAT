@@ -96,6 +96,22 @@
         ]
       },
       {
+        "name": "geezer_house",
+        "item_count": 1,
+        "map_locations": [
+          {
+            "map": "villageville_map",
+            "x": 118,
+            "y": 141
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Others/Achievement Anti-Cube\nRT RT LT RT RT LT LT LT"
+          }
+        ]
+      },
+      {
         "name": "Kitchen",
         "item_count": 1,
         "map_locations": [
@@ -128,6 +144,7 @@
             "name": "Anti-Cube\nRT RT LT RT LT LT LT RT",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["[know_tetro]", "[skip_knowledge]"]
           },
           {
             "name": "Chest",
@@ -170,6 +187,11 @@
             "name": "Anti-Cube\nUp RT Left A Right LT Down RT",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": [
+              "[know_tetro],[nuzu_school],[Oldschool]", 
+              "[know_tetro],[scrambled_tetro]", 
+              "[skip_knowledge]"
+            ]
           },
           {
             "name": "Map",

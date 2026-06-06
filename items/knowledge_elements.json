@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "know tetrominos",
+        "type" : "toggle",
+        "codes" : "know_tetro",
+        "img" : "images/machine.png"
+    },
+    {
+        "name" : "reached Nu Zu School",
+        "type" : "toggle",
+        "codes" : "nuzu_school",
+        "img" : "images/machine.png"
+    },
+    {
+        "name" : "reached Fox",
+        "type" : "toggle",
+        "codes" : "Fox",
+        "img" : "images/machine.png"
+    },
+    {
+        "name" : "reached Oldschool",
+        "type" : "toggle",
+        "codes" : "Oldschool",
+        "img" : "images/machine.png"
+    }
+]

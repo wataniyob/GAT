@@ -204,7 +204,11 @@
       {
         "name": "Tree of Death",
         "item_count": 1,
-        "access_rules": ["mausoleum_room"],
+        "access_rules": [
+          "mausoleum_room,[cryptA_map],[cryptB_map],[cryptC_map],[cryptD_map]", 
+          "mausoleum_room,[skip_knowledge]", 
+          "mausoleum_room,[scrambled_tetro]"
+        ],
         "map_locations": [
           {
             "map": "cemetery_map",

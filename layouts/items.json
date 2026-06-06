@@ -33,6 +33,7 @@
                     [
                         "goal",
                         "clock_shuffle",
+                        "knowledge",
                         "autoswitch"
                     ]
                 ]
