@@ -59,6 +59,12 @@
         "chest_unopened_img": "images/icons/anti.png",
         "chest_opened_img": "images/icons/anti_collected.png",
         "access_rules": ["[know_tetro]", "[skip_knowledge]"]
+      },
+      {
+        "name": "Parlor Anti-Cube\nRT RT LT RT LT LT LT RT",
+        "chest_unopened_img": "images/icons/anti.png",
+        "chest_opened_img": "images/icons/anti_collected.png",
+        "access_rules": ["[know_tetro]", "[skip_knowledge]"]
       }
     ],
     "children": [
