@@ -6,7 +6,6 @@
     "children": [
       {
         "name": "Sewer Start",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -25,7 +24,6 @@
       },
       {
         "name": "Sewer Hub",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -49,7 +47,6 @@
       },
       {
         "name": "Sewer Treasure One",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -68,7 +65,6 @@
       },
       {
         "name": "Sewer Pivot",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -114,7 +110,6 @@
       },
       {
         "name": "Sewer Geyser",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -133,7 +128,6 @@
       },
       {
         "name": "Sewer Pillars",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -162,7 +156,6 @@
       },
       {
         "name": "Sewer Treasure Two",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -181,7 +174,6 @@
       },
       {
         "name": "Sewer Lesser Gate B",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -214,7 +206,7 @@
             "name": "Anti-Cube\nLT LT LT RT LT RT LT RT",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
-            "access_rules": ["[know_tetro]", "[skip_knowledge]"]
+            "access_rules": ["[know_tetro]", "[not_scrambled]"]
           },
           {
             "name": "Cube Bit",
@@ -226,7 +218,6 @@
       },
       {
         "name": "Sewer to Lava",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -259,13 +250,13 @@
             "name": "Anti-Cube\nLT LT RT LT LT RT RT RT",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
-            "access_rules": ["[know_tetro]", "[skip_knowledge]"]
+            "access_rules": ["[know_tetro]", "[not_scrambled]"]
           }
         ]
       },
       {
         "name": "Lava Skull",
-        "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"],
+        "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"],
         "item_count": 1,
         "map_locations": [
           {

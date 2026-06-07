@@ -186,8 +186,8 @@
             "chest_opened_img": "images/icons/anti_collected.png",
             "access_rules": [
               "[know_tetro],[nuzu_school],[Oldschool]", 
-              "[know_tetro],[scrambled_tetro]", 
-              "[skip_knowledge]"
+              "[know_tetro],[skip_knowledge]", 
+              "[not_scrambled],[skip_knowledge]"
             ]
           },
           {

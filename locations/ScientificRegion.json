@@ -57,8 +57,8 @@
             "chest_opened_img": "images/icons/anti_collected.png",
             "access_rules": [
               "[know_tetro],[nuzu_school],[sunglasses]", 
-              "[know_tetro],[scrambled_tetro]", 
-              "[skip_knowledge]"]
+              "[know_tetro],[skip_knowledge]", 
+              "[not_scrambled],[skip_knowledge]"]
           },
           {
             "name": "Cube Bit 1",
@@ -333,12 +333,13 @@
             "name": "Anti-Cube\nRight RT Left RT RT A A Right",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
-            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
           },
           {
             "name": "Telescope Heart Cube\nRT LT LT RT RT LT",
             "chest_unopened_img": "images/icons/heart.png",
             "chest_opened_img": "images/icons/heart_collected.png",
+            "access_rules": ["[know_tetro]", "[not_scrambled]"]
           }
         ]
       },
@@ -380,7 +381,7 @@
             "name": "Anti-Cube\nUp A RT LT A Down LT RT",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
-            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
           }
         ]
       },
@@ -421,13 +422,13 @@
         "name": "Anti-Cube\nLT A RT Up Down LT RT A",
         "chest_unopened_img": "images/icons/anti.png",
         "chest_opened_img": "images/icons/anti_collected.png",
-        "access_rules": ["[know_tetro],[nuzu_school],[sunglasses]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
+        "access_rules": ["[know_tetro],[nuzu_school],[sunglasses]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
       },
       {
         "name": "Chest",
         "chest_unopened_img": "images/icons/chest.png",
         "chest_opened_img": "images/icons/chest_collected.png",
-        "access_rules": ["[tree_map]", "[skip_knowledge]", "[scrambled_tetro]"]
+        "access_rules": ["[tree_map]", "[skip_knowledge]"]
       }
     ]
   }

@@ -57,7 +57,7 @@
           {
             "name": "Zu Zuish",
             "item_count": 1,
-            "access_rules": ["[know_tetro],[nuzu_school],[Fox]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"],
+            "access_rules": ["[know_tetro],[nuzu_school],[Fox]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -94,7 +94,7 @@
                 "name": "Anti-Cube\nRight LT Right A RT Down A Up",
                 "chest_unopened_img": "images/icons/anti.png",
                 "chest_opened_img": "images/icons/anti_collected.png",
-                "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
+                "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
               },
               {
                 "name": "Cube Bit 1",
@@ -192,45 +192,50 @@
                 "name": "Chest",
                 "chest_unopened_img": "images/icons/chest.png",
                 "chest_opened_img": "images/icons/chest_collected.png",
-                "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
+                "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
               }
             ]
           },
           {
-            "name": "CMY B",
-            "item_count": 1,
-            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"],
-            "map_locations": [
+            "name": "CMY",
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"],
+            "children": [
               {
-                "map": "naturalregion_map",
-                "x": 3417,
-                "y": 3785
-              }
-            ],
-            "sections": [
+                "name": "CMY B",
+                "item_count": 1,
+                "map_locations": [
+                  {
+                    "map": "naturalregion_map",
+                    "x": 3417,
+                    "y": 3785
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Anti-Cube",
+                    "chest_unopened_img": "images/icons/anti.png",
+                    "chest_opened_img": "images/icons/anti_collected.png",
+                  }
+                ]
+              },
               {
-                "name": "Anti-Cube",
-                "chest_unopened_img": "images/icons/anti.png",
-                "chest_opened_img": "images/icons/anti_collected.png",
-              }
-            ]
-          },
-          {
-            "name": "CMY Fork",
-            "item_count": 1,
-            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"],
-            "map_locations": [
-              {
-                "map": "naturalregion_map",
-                "x": 3862,
-                "y": 3030
-              }
-            ],
-            "sections": [
-              {
-                "name": "Anti-Cube\nLT RT RT RT LT RT RT LT",
-                "chest_unopened_img": "images/icons/anti.png",
-                "chest_opened_img": "images/icons/anti_collected.png",
+                "name": "CMY Fork",
+                "item_count": 1,
+                "map_locations": [
+                  {
+                    "map": "naturalregion_map",
+                    "x": 3862,
+                    "y": 3030
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Anti-Cube\nLT RT RT RT LT RT RT LT",
+                    "chest_unopened_img": "images/icons/anti.png",
+                    "chest_opened_img": "images/icons/anti_collected.png",
+                    "access_rules": ["[know_tetro]", "[not_scrambled]"]
+                  }
+                ]
               }
             ]
           },
@@ -272,7 +277,7 @@
                 "name": "Black Monolith\nUp RT Up A Down LT Up Down\n\nHeart Cube\nDown Down LT RT RT A Up",
                 "chest_unopened_img": "images/icons/heart.png",
                 "chest_opened_img": "images/icons/heart_collected.png",
-                "access_rules": ["[know_tetro],[nuzu_school],[ritual_map],[sunglasses],[skull_artifact]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
+                "access_rules": ["[know_tetro],[nuzu_school],[ritual_map],[sunglasses],[skull_artifact]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
               }
             ]
           },
@@ -291,7 +296,7 @@
                 "name": "Anti-Cube\nUp LT RT Up LT Up RT Up",
                 "chest_unopened_img": "images/icons/anti.png",
                 "chest_opened_img": "images/icons/anti_collected.png",
-                "access_rules": ["[sunglasses],[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
+                "access_rules": ["[know_tetro],[nuzu_school],[sunglasses]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
               },
               {
                 "name": "Cube Bit 1",
@@ -309,6 +314,7 @@
           {
             "name": "Zu Fork",
             "item_count": 1,
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -321,7 +327,7 @@
                 "name": "Anti-Cube\nLT RT RT LT LT LT RT RT RT RT",
                 "chest_unopened_img": "images/icons/anti.png",
                 "chest_opened_img": "images/icons/anti_collected.png",
-                "access_rules": ["[know_tetro]", "[skip_knowledge]"]
+                "access_rules": ["[know_tetro]", "[not_scrambled]"]
               }
             ]
           },
@@ -340,7 +346,7 @@
                 "name": "Anti-Cube\nRight RT Left LT Left Up Down A",
                 "chest_unopened_img": "images/icons/anti.png",
                 "chest_opened_img": "images/icons/anti_collected.png",
-                "access_rules": ["[sunglasses],[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"]
+                "access_rules": ["[know_tetro],[nuzu_school],[sunglasses]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
               },
               {
                 "name": "Owl",
@@ -416,7 +422,7 @@
                 "name": "Chest 2",
                 "chest_unopened_img": "images/icons/chest.png",
                 "chest_opened_img": "images/icons/chest_collected.png",
-                "access_rules": ["[arch_map]", "[skip_knowledge]", "[scrambled_tetro]"]
+                "access_rules": ["[arch_map]", "[skip_knowledge]"]
               }
             ]
           },
@@ -535,7 +541,7 @@
                 "name": "Anti-Cube",
                 "chest_unopened_img": "images/icons/anti.png",
                 "chest_opened_img": "images/icons/anti_collected.png",
-                "access_rules": ["[Oldschool]", "[skip_knowledge]", "[scrambled_tetro]"]
+                "access_rules": ["[Oldschool]", "[skip_knowledge]"]
               },
               {
                 "name": "Cube Bit 1",
@@ -564,7 +570,7 @@
                 "name": "Anti-Cube",
                 "chest_unopened_img": "images/icons/anti.png",
                 "chest_opened_img": "images/icons/anti_collected.png",
-                "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]",  "[skip_knowledge]"]
+                "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]",  "[not_scrambled],[skip_knowledge]"]
               }
             ]
           },
@@ -793,6 +799,7 @@
           {
             "name": "Watertower Secret",
             "item_count": 1,
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -808,8 +815,8 @@
                 "access_rules": [
                   "[know_tetro],[nuzu_school],[sunglasses]", 
                   "[know_tetro],[nuzu_school],[qrcode_map]", 
-                  "[know_tetro],[scrambled_tetro]", 
-                  "[skip_knowledge]"]
+                  "[know_tetro],[skip_knowledge]", 
+                  "[not_scrambled],[skip_knowledge]"]
               }
             ]
           }

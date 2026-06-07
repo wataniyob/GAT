@@ -24,7 +24,7 @@
             "name": "Chest",
             "chest_unopened_img": "images/icons/chest.png",
             "chest_opened_img": "images/icons/chest_collected.png",
-            "access_rules": ["[pivot_map]", "[skip_knowledge]", "[scrambled_tetro]"]
+            "access_rules": ["[pivot_map]", "[skip_knowledge]"]
           }
         ]
       },

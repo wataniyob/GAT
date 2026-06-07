@@ -206,8 +206,7 @@
         "item_count": 1,
         "access_rules": [
           "mausoleum_room,[cryptA_map],[cryptB_map],[cryptC_map],[cryptD_map]", 
-          "mausoleum_room,[skip_knowledge]", 
-          "mausoleum_room,[scrambled_tetro]"
+          "mausoleum_room,[skip_knowledge]"
         ],
         "map_locations": [
           {
