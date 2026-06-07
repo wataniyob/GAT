@@ -30,14 +30,12 @@
     "codes": "knowledge",
     "stages": [
       {
-        "name": "Knowledge Logic Disabled",
         "img": "images/knowledge.png",
         "img_mods": "@disabled",
         "codes": "skip_knowledge",
         "inherit_codes": false
       },
       {
-        "name": "Knowledge Logic Enabled",
         "img": "images/knowledge.png",
         "codes": "require_knowledge",
         "inherit_codes": false
@@ -45,22 +43,20 @@
     ]
   },
   {
-    "name": "Scramble tetrominos",
+    "name": "Scrambled Tetrominos",
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
     "initial_stage_idx": 0,
-    "codes": "Scrambled",
+    "codes": "scrambled",
     "stages": [
       {
-        "name": "Scramble tetrominos Disabled",
         "img": "images/machine.png",
         "img_mods": "@disabled",
         "codes": "not_scrambled",
         "inherit_codes": false
       },
       {
-        "name": "Scramble tetrominos Enabled",
         "img": "images/machine.png",
         "codes": "scrambled_tetro",
         "inherit_codes": false
