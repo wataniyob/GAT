@@ -170,7 +170,7 @@ LOCATIONS = {
     { "@Zu Heads/Anti-Cube" },
     { "@Others/Parlor Anti-Cube\nRT RT LT RT LT LT LT RT" },
     { "@Others/Throne/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT" },
-    { "@Watertower Secret/Anti-Cube\nRT RT RT LT RT RT RT LT" },
+    { "@Others/Watertower Secret Anti-Cube\nRT RT RT LT RT RT RT LT" },
     { "@Ritual/Black Monolith\nUp RT Up A Down LT Up Down\n\nHeart Cube\nDown Down LT RT RT A Up" },
     { "@Telescope/Telescope Heart Cube\nRT LT LT RT RT LT" },
     { "@Zu Zuish/Security Question Heart Cube" },
