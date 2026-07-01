@@ -809,14 +809,7 @@
             ],
             "sections": [
               {
-                "name": "Anti-Cube\nRT RT RT LT RT RT RT LT",
-                "chest_unopened_img": "images/icons/anti.png",
-                "chest_opened_img": "images/icons/anti_collected.png",
-                "access_rules": [
-                  "[know_tetro],[nuzu_school],[sunglasses]", 
-                  "[know_tetro],[nuzu_school],[qrcode_map]", 
-                  "[know_tetro],[skip_knowledge]", 
-                  "[not_scrambled],[skip_knowledge]"]
+                "ref": "Others/Watertower Secret Anti-Cube\nRT RT RT LT RT RT RT LT"
               }
             ]
           }

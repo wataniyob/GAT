@@ -65,6 +65,18 @@
         "chest_unopened_img": "images/icons/anti.png",
         "chest_opened_img": "images/icons/anti_collected.png",
         "access_rules": ["[know_tetro]", "[not_scrambled]"]
+      },
+      {
+        "name": "Watertower Secret Anti-Cube\nRT RT RT LT RT RT RT LT",
+        "chest_unopened_img": "images/icons/anti.png",
+        "chest_opened_img": "images/icons/anti_collected.png",
+        "access_rules": [
+          "qrcode_map,[not_scrambled]",
+          "qrcode_map,[know_tetro]",
+          "lighthouse_room,[not_scrambled],[skip_knowledge]",
+          "lighthouse_room,[know_tetro],[skip_knowledge]",
+          "lighthouse_room,[know_tetro],[sunglasses],[nuzu_school]"
+        ]
       }
     ],
     "children": [
