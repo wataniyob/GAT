@@ -61,11 +61,8 @@ function onClear(slot_data)
         print(string.format("clock: %s", slot_data["shuffle_clock_antis"]))
     end
 
-    if slot_data["goal"] then
-        Tracker:FindObjectForCode("goal").CurrentStage = slot_data["goal"]
-    end
-
-    Tracker:FindObjectForCode("clock").CurrentStage = slot_data["shuffle_clock_antis"] and 1 or 0    
+    Tracker:FindObjectForCode("goal").AcquiredCount = slot_data["goal"]
+    Tracker:FindObjectForCode("clock").CurrentStage = slot_data["shuffle_clock_antis"]
     Tracker:FindObjectForCode("autoswitch").CurrentStage = 1
     Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":current_level"})
 
