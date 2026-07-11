@@ -107,6 +107,12 @@ local function updateGoldenFromBits()
 	updateTotal()
 end
 
+function checkGoal()
+    local t = Tracker:FindObjectForCode("total")
+	local g = Tracker:FindObjectForCode("goal")
+	return t.AcquiredCount >= g.AcquiredCount
+end
+
 ScriptHost:AddWatchForCode("WatchGolden", "golden", updateTotal)
 ScriptHost:AddWatchForCode("WatchAnti", "anti", updateTotal)
 ScriptHost:AddWatchForCode("WatchBit", "bit", updateGoldenFromBits)
