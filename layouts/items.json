@@ -75,6 +75,8 @@
                 "type": "itemgrid",
                 "item_margin": "4,4",
                 "rows": [
+                    ["carry"],
+                    ["turn_objects"],
                     ["writing_cube"],
                     ["counting_cube"],
                     ["tome_artifact"],
