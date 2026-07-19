@@ -2,7 +2,7 @@
   {
     "name": "INDUSTRIAL DISTRICT",
     "item_count": 1,
-    "access_rules": ["total:2,lighthouse_room"],
+    "access_rules": ["total:2,lighthouse_room,turn_objects"],
     "children": [
       {
         "name": "Pivot Watertower",

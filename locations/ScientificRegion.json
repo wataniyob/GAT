@@ -37,6 +37,7 @@
             "name": "Anti-Cube\n▀ ▀ █ ▄ ▄",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["carry"],
           }
         ]
       },
@@ -219,30 +220,35 @@
             "name": "Golden Cube",
             "chest_unopened_img": "images/icons/golden.png",
             "chest_opened_img": "images/icons/golden_collected.png",
+            "access_rules": ["turn_objects"],
           },
           {
             "name": "Minute Anti-Cube",
             "visibility_rules": ["clock_shuffle"],
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["turn_objects"],
           },
           {
             "name": "Hour Anti-Cube",
             "visibility_rules": ["clock_shuffle"],
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["turn_objects"],
           },
           {
             "name": "Day Anti-Cube",
             "visibility_rules": ["clock_shuffle"],
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["turn_objects"],
           },
           {
             "name": "Week Anti-Cube",
             "visibility_rules": ["clock_shuffle"],
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["turn_objects"],
           }
         ]
       },
@@ -267,6 +273,7 @@
       {
         "name": "Globe",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -285,6 +292,7 @@
       {
         "name": "Globe Int",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -315,12 +323,14 @@
             "name": "Golden Cube",
             "chest_unopened_img": "images/icons/golden.png",
             "chest_opened_img": "images/icons/golden_collected.png",
+            "access_rules": ["turn_objects"],
           }
         ]
       },
       {
         "name": "Telescope",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -346,6 +356,7 @@
       {
         "name": "Visitor",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -369,6 +380,7 @@
       {
         "name": "Code Machine",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -388,6 +400,7 @@
       {
         "name": "Orrery B",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",

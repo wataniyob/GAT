@@ -43,6 +43,23 @@
     ]
   },
   {
+    "name": "Shuffled Abilities",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "abilities",
+    "stages": [
+      {
+        "img": "images/hat.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/hat.png"
+      }
+    ]
+  },
+  {
     "name": "Scrambled Tetrominos",
     "type": "progressive",
     "loop": true,
