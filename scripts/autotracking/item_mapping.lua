@@ -16,6 +16,8 @@ ITEMS = {
     { "cabin_room", "toggle" },
     { "bigthrone_room", "toggle" },
     { "qrcode_map", "toggle" },
+    { "carry", "toggle" },
+    { "turn_objects", "toggle" },
     { "arch_map", "toggle" },
     { "cryptA_map", "toggle" },
     { "cryptB_map", "toggle" },

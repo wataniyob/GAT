@@ -205,5 +205,17 @@
     "type": "toggle",
     "img": "images/items/map_ritual.png",
     "codes": "ritual_map"
+  },
+  {
+    "name": "Carry",
+    "type": "toggle",
+    "img": "images/items/crate.png",
+    "codes": "carry"
+  },
+  {
+    "name": "Turn Objects",
+    "type": "toggle",
+    "img": "images/items/pivot.png",
+    "codes": "turn_objects"
   }
 ]

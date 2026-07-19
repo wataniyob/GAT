@@ -57,7 +57,7 @@
           {
             "name": "Zu Zuish",
             "item_count": 1,
-            "access_rules": ["[know_tetro],[nuzu_school],[Fox]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"],
+            "access_rules": ["turn_objects,[know_tetro],[nuzu_school],[Fox]", "turn_objects,[know_tetro],[skip_knowledge]", "turn_objects,[not_scrambled],[skip_knowledge]"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -71,12 +71,14 @@
                 "name": "Security Question Heart Cube",
                 "chest_unopened_img": "images/icons/name_of_god.png",
                 "chest_opened_img": "images/icons/metatron.png",
+                "access_rules": ["carry"],
               }
             ]
           },
           {
             "name": "Zu Code Loop",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -111,6 +113,7 @@
           {
             "name": "Mine A",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -129,6 +132,7 @@
           {
             "name": "Mine Wrap",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -157,6 +161,7 @@
           {
             "name": "Mine Bomb Pillar",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -180,6 +185,7 @@
           {
             "name": "Water Wheel B",
             "item_count": 1,
+            "access_rules": ["turn_objects"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -265,6 +271,7 @@
           {
             "name": "Ritual",
             "item_count": 1,
+            "access_rules": ["turn_objects"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -314,7 +321,7 @@
           {
             "name": "Zu Fork",
             "item_count": 1,
-            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"],
+            "access_rules": ["turn_objects,[know_tetro],[nuzu_school]", "turn_objects,[know_tetro],[skip_knowledge]", "turn_objects,[not_scrambled],[skip_knowledge]"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -429,6 +436,7 @@
           {
             "name": "Weightswitch Temple",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -452,6 +460,7 @@
           {
             "name": "Zu Switch B",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -558,6 +567,7 @@
           {
             "name": "Quantum",
             "item_count": 1,
+            "access_rules": ["turn_objects"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -589,6 +599,7 @@
                 "name": "Cube Bit 1",
                 "chest_unopened_img": "images/icons/bit.png",
                 "chest_opened_img": "images/icons/bit_collected.png",
+                "access_rules": ["carry"],
               },
               {
                 "name": "Cube Bit 2",
@@ -599,6 +610,7 @@
                 "name": "Cube Bit 3",
                 "chest_unopened_img": "images/icons/bit.png",
                 "chest_opened_img": "images/icons/bit_collected.png",
+                "access_rules": ["carry"],
               }
             ]
           },
@@ -617,12 +629,14 @@
                 "name": "Anti-Cube",
                 "chest_unopened_img": "images/icons/anti.png",
                 "chest_opened_img": "images/icons/anti_collected.png",
+                "access_rules": ["carry"],
               }
             ]
           },
           {
             "name": "Wall Hole",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -651,6 +665,7 @@
           {
             "name": "Two Walls",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -684,6 +699,7 @@
           {
             "name": "Fractal",
             "item_count": 1,
+            "access_rules": ["carry"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -696,6 +712,7 @@
                 "name": "Cube Bit 1",
                 "chest_unopened_img": "images/icons/bit.png",
                 "chest_opened_img": "images/icons/bit_collected.png",
+                "access_rules": ["turn_objects"],
               },
               {
                 "name": "Cube Bit 2",
@@ -706,12 +723,14 @@
                 "name": "Cube Bit 3",
                 "chest_unopened_img": "images/icons/bit.png",
                 "chest_opened_img": "images/icons/bit_collected.png",
+                "access_rules": ["turn_objects"],
               }
             ]
           },
           {
             "name": "Zu Heads",
             "item_count": 1,
+            "access_rules": ["carry,turn_objects"],
             "map_locations": [
               {
                 "map": "naturalregion_map",
@@ -730,7 +749,7 @@
           {
             "name": "Temple of Love",
             "item_count": 1,
-            "access_rules": ["total:64,love:3,writing_cube,counting_cube"],
+            "access_rules": ["total:64,love:3,writing_cube,counting_cube,turn_objects"],
             "visibility_rules": ["hearts"],
             "sections": [
               {

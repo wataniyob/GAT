@@ -58,10 +58,12 @@ function onClear(slot_data)
     if ENABLE_DEBUG_LOG then
         print("Checking slot data.")
         print(string.format("goal: %s", slot_data["goal"]))
+        print(string.format("abilities: %s", slot_data["randomize_abilities"]))
         print(string.format("clock: %s", slot_data["shuffle_clock_antis"]))
     end
 
     Tracker:FindObjectForCode("goal").AcquiredCount = slot_data["goal"]
+    Tracker:FindObjectForCode("abilities").CurrentStage = slot_data["randomize_abilities"]
     Tracker:FindObjectForCode("clock").CurrentStage = slot_data["shuffle_clock_antis"]
     Tracker:FindObjectForCode("autoswitch").CurrentStage = 1
     Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":current_level"})
