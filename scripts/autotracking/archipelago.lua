@@ -67,7 +67,7 @@ function onClear(slot_data)
 
     Tracker:FindObjectForCode("clock").CurrentStage = slot_data["shuffle_clock_antis"] and 1 or 0    
     Tracker:FindObjectForCode("autoswitch").CurrentStage = 1
-    Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":current_level"})
+    Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":current_region"})
 
 end
 
