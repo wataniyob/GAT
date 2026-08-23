@@ -43,6 +43,22 @@
             ],
             "sections": [
               {
+                "name": "Split Waterfall\nLeft LT Right RT Up A Down RT RT",
+                "item_height": 1,
+                "item_width": 1,
+                "hosted_item": "sequence",
+                "chest_unopened_img": "images/icons/empty.png",
+                "chest_opened_img": "images/icons/empty.png",
+              },
+              {
+                "name": "Glowing Door\nLeft LT Left Right RT Down Up LT",
+                "item_height": 1,
+                "item_width": 1,
+                "hosted_item": "sequence",
+                "chest_unopened_img": "images/icons/empty.png",
+                "chest_opened_img": "images/icons/empty.png",
+              },
+              {
                 "name": "Cube Bit",
                 "chest_unopened_img": "images/icons/bit.png",
                 "chest_opened_img": "images/icons/bit_collected.png",
@@ -753,7 +769,7 @@
             "visibility_rules": ["hearts"],
             "sections": [
               {
-                "name": "Goal",
+                "name": "Goal\nLT RT RT LT RT LT LT LT\nRT RT RT LT RT RT LT LT",
                 "chest_unopened_img": "images/hearts.png",
                 "chest_opened_img": "images/stars.png"
               }
