@@ -205,5 +205,10 @@
     "type": "toggle",
     "img": "images/items/map_ritual.png",
     "codes": "ritual_map"
+  },
+  {
+    "name": "Door Sequence",
+    "type": "static",
+    "codes": "sequence"
   }
 ]
