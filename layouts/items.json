@@ -76,8 +76,6 @@
                 "type": "itemgrid",
                 "item_margin": "4,4",
                 "rows": [
-                    ["carry"],
-                    ["turn_objects"],
                     ["writing_cube"],
                     ["counting_cube"],
                     ["tome_artifact"],
@@ -91,6 +89,18 @@
                     ["tree_map"],
                     ["qrcode_map"],
                     ["ritual_map"]
+                ]
+            }
+        ]
+    },
+    "abilities": {
+        "type": "dock",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4,4",
+                "rows": [
+                    ["carry", "turn_objects"]
                 ]
             }
         ]

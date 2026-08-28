@@ -1,0 +1,27 @@
+{
+    "collectibles_and_abilities": {
+        "type": "dock",
+        "content": [
+            {
+                "type": "group",
+                "header": "Collectibles",
+                "dock": "top",
+                "h_alignment": "center",
+                "content": {
+                    "type": "layout",
+                    "key": "collectibles"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Abilities",
+                "dock": "top",
+                "h_alignment": "center",
+                "content": {
+                    "type": "layout",
+                    "key": "abilities"
+                }
+            }
+        ]
+    }
+}
