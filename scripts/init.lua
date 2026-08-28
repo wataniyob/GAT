@@ -1,3 +1,8 @@
+-- entry point for all lua code of the pack
+-- more info on the lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
+ENABLE_DEBUG_LOG = true
+DEBUG = true
+
 -- Items
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/modifiers.json")
@@ -10,6 +15,9 @@ ScriptHost:LoadScript("scripts/locations.lua")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+
+-- AutoTracking for Poptracker
+ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
 
 -- Update knowledge rule items
 -- -- Fox is 2 cubes
@@ -24,7 +32,7 @@ local function checkFox()
     Fox.Active = (total.AcquiredCount >= 2)
 end
 
--- -- know tetro is reaching "Code Machine" e.i. 2 cubes + bihthrone door unlock
+-- -- know tetro is reaching "Code Machine" e.i. 2 cubes + bigthrone door unlock
 local function checkKnowTetro()
     local total = Tracker:FindObjectForCode("total")
     local throne = Tracker:FindObjectForCode("bigthrone_room")
@@ -36,7 +44,7 @@ local function checkKnowTetro()
 
     know_tetro.Active = throne.Active and total.AcquiredCount >= 2
 end
-ScriptHost:AddWatchForCode("checkTetroKnowkedge", "bigthrone_room", checkKnowTetro)
+ScriptHost:AddWatchForCode("checkTetroKnowledge", "bigthrone_room", checkKnowTetro)
 
 -- -- nuzu_school is 8 cubes
 local function checknuzu_school()
@@ -81,6 +89,25 @@ local function updateTotal()
     checkOldschool()
 end
 
+-- Update Golden count after collecting enough bits
+local function updateGoldenFromBits()
+	local g = Tracker:FindObjectForCode("golden")
+	local b = Tracker:FindObjectForCode("bit")
+	
+	if not g or not b then
+        return
+    end
+	
+	if b.AcquiredCount >= 8 then
+		local wholeCubesInBits = b.AcquiredCount // 8
+		b.AcquiredCount = b.AcquiredCount - (wholeCubesInBits*8)
+		g.AcquiredCount = g.AcquiredCount + wholeCubesInBits
+	end
+	
+	updateTotal()
+end
+
 ScriptHost:AddWatchForCode("WatchGolden", "golden", updateTotal)
 ScriptHost:AddWatchForCode("WatchAnti", "anti", updateTotal)
+ScriptHost:AddWatchForCode("WatchBit", "bit", updateGoldenFromBits)
 ScriptHost:AddWatchForCode("PreventTotal", "total", updateTotal)

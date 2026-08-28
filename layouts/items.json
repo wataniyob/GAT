@@ -9,9 +9,10 @@
                 "item_margin": "4,4",
                 "rows": [
                     [
-                        "total",
+                        "bit",
                         "golden",
-                        "anti"
+                        "anti",
+                        "total"
                     ],
                     [
                         "love",
@@ -31,12 +32,12 @@
                 "rows": [
                     [
                         "goal",
-                        "clock_shuffle"
-                        
+                        "clock_shuffle",
+                        "autoswitch" 
                     ],
                     [
                         "knowledge",
-                        "Scrambled"
+                        "scrambled"
                     ]
                 ]
             }

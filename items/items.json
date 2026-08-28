@@ -13,7 +13,7 @@
     "img": "images/items/golden.png",
     "codes": "golden",
     "overlay_background": "#000000",
-    "max_quantity": 32
+    "max_quantity": 64
   },
   {
     "name": "Anti-Cubes",
@@ -22,6 +22,14 @@
     "codes": "anti",
     "overlay_background": "#000000",
     "max_quantity": 32
+  },
+    {
+    "name": "Cube Bits",
+    "type": "consumable",
+    "img": "images/items/bit.png",
+    "codes": "bit",
+    "overlay_background": "#000000",
+    "max_quantity": 8
   },
   {
     "name": "Heart Cubes",
