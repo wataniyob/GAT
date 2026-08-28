@@ -85,7 +85,7 @@
     "codes": "cabin_room"
   },
   {
-    "name": "Tree Door Unlocked",
+    "name": "Tree Crumble Door Unlocked",
     "type": "toggle",
     "img": "images/items/door_tree.png",
     "codes": "tree_room"
@@ -115,13 +115,13 @@
     "codes": "mausoleum_room"
   },
   {
-    "name": "Sewer Hub Door Unlocked",
+    "name": "Sewer QR Door Unlocked",
     "type": "toggle",
     "img": "images/items/door_sewer.png",
     "codes": "sewerhub_room"
   },
   {
-    "name": "Sewer Pillars Door Unlocked",
+    "name": "Sewer Fork Door Unlocked",
     "type": "toggle",
     "img": "images/items/door_pillars.png",
     "codes": "sewerpillars_room"
