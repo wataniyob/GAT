@@ -10,9 +10,11 @@ Tracker:AddItems("items/knowledge_elements.json")
 
 Tracker:AddMaps("maps/maps.json")
 ScriptHost:LoadScript("scripts/locations.lua")
+ScriptHost:LoadScript("scripts/track_setting.lua")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/collectibles_layout/collectibles.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
@@ -118,3 +120,4 @@ ScriptHost:AddWatchForCode("WatchGolden", "golden", updateTotal)
 ScriptHost:AddWatchForCode("WatchAnti", "anti", updateTotal)
 ScriptHost:AddWatchForCode("WatchBit", "bit", updateGoldenFromBits)
 ScriptHost:AddWatchForCode("PreventTotal", "total", updateTotal)
+ScriptHost:AddWatchForCode("toggle abilities", "abilities", right_layout)
