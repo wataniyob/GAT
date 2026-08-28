@@ -106,6 +106,7 @@
       {
         "name": "Skull B",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "cemetery_map",
@@ -271,6 +272,7 @@
             "name": "Cube Bit 3",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",
+            "access_rules": ["carry"],
           }
         ]
       },
@@ -305,6 +307,7 @@
       {
         "name": "Grave Lesser Gate",
         "item_count": 1,
+        "access_rules": ["carry"],
         "map_locations": [
           {
             "map": "cemetery_map",

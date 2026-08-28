@@ -2,7 +2,7 @@
   {
     "name": "SEWERS",
     "item_count": 1,
-    "access_rules": ["total:2,lighthouse_room,rail_room"],
+    "access_rules": ["total:2,lighthouse_room,rail_room,turn_objects"],
     "children": [
       {
         "name": "Sewer Start",
@@ -227,6 +227,14 @@
           }
         ],
         "sections": [
+          {
+            "name": "Lava Entrance\nRight Up Left Down A LT RT A",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "sequence",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
           {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",

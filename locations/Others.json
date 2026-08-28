@@ -73,9 +73,9 @@
         "access_rules": [
           "qrcode_map,[not_scrambled]",
           "qrcode_map,[know_tetro]",
-          "lighthouse_room,[not_scrambled],[skip_knowledge]",
-          "lighthouse_room,[know_tetro],[skip_knowledge]",
-          "lighthouse_room,[know_tetro],[sunglasses],[nuzu_school]"
+          "lighthouse_room,turn_objects,[not_scrambled],[skip_knowledge]",
+          "lighthouse_room,turn_objects,[know_tetro],[skip_knowledge]",
+          "lighthouse_room,turn_objects,[know_tetro],[sunglasses],[nuzu_school]"
         ]
       }
     ],

@@ -32,17 +32,18 @@ local function checkFox()
     Fox.Active = (total.AcquiredCount >= 2)
 end
 
--- -- know tetro is reaching "Code Machine" e.i. 2 cubes + bigthrone door unlock
+-- -- know tetro is reaching "Code Machine" e.i. 2 cubes + bigthrone door unlock + turn objects ability
 local function checkKnowTetro()
     local total = Tracker:FindObjectForCode("total")
     local throne = Tracker:FindObjectForCode("bigthrone_room")
+    local turn = Tracker:FindObjectForCode("turn_objects")
     local know_tetro = Tracker:FindObjectForCode("know_tetro")
 
     if not total or not throne or not know_tetro then
         return
     end
 
-    know_tetro.Active = throne.Active and total.AcquiredCount >= 2
+    know_tetro.Active = turn.Active and throne.Active and total.AcquiredCount >= 2
 end
 ScriptHost:AddWatchForCode("checkTetroKnowledge", "bigthrone_room", checkKnowTetro)
 
@@ -105,6 +106,12 @@ local function updateGoldenFromBits()
 	end
 	
 	updateTotal()
+end
+
+function checkGoal()
+    local t = Tracker:FindObjectForCode("total")
+	local g = Tracker:FindObjectForCode("goal")
+	return t.AcquiredCount >= g.AcquiredCount
 end
 
 ScriptHost:AddWatchForCode("WatchGolden", "golden", updateTotal)
