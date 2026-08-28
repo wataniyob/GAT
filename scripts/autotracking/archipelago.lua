@@ -65,6 +65,8 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("goal").AcquiredCount = slot_data["goal"]
     Tracker:FindObjectForCode("abilities").CurrentStage = slot_data["randomize_abilities"]
     Tracker:FindObjectForCode("clock").CurrentStage = slot_data["shuffle_clock_antis"]
+	Tracker:FindObjectForCode("knowledge").CurrentStage = slot_data["knowledge_logic"]
+	Tracker:FindObjectForCode("scrambled").CurrentStage = slot_data["scramble_tetrominos"]
     Tracker:FindObjectForCode("autoswitch").CurrentStage = 1
     Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":current_region"})
 
