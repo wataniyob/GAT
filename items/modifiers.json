@@ -38,10 +38,14 @@
     "stages": [
       {
         "img": "images/hat.png",
-        "img_mods": "@disabled"
+        "img_mods": "@disabled",
+        "codes": "carry, turn_objects",
+        "inherit_codes": false
       },
       {
-        "img": "images/hat.png"
+        "img": "images/hat.png",
+        "codes": "shuffled_abilities",
+        "inherit_codes": false
       }
     ]
   },
