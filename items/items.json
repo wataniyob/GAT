@@ -222,5 +222,10 @@
     "name": "Door Sequence",
     "type": "static",
     "codes": "sequence"
+  },
+  {
+    "name": "Link Door",
+    "type": "static",
+    "codes": "linkdoor"
   }
 ]

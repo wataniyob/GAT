@@ -176,6 +176,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nTree Roots",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit 1",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",

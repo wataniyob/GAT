@@ -20,6 +20,15 @@
             ],
             "sections": [
               {
+                "name": "Link Door:\nTwo Walls",
+                "item_height": 1,
+                "item_width": 1,
+                "hosted_item": "linkdoor",
+                "access_rules": ["belltower_room,carry"],
+                "chest_unopened_img": "images/icons/empty.png",
+                "chest_opened_img": "images/icons/empty.png",
+              },
+              {
                 "name": "Cube Bit 1",
                 "chest_unopened_img": "images/icons/bit.png",
                 "chest_opened_img": "images/icons/bit_collected.png",
@@ -355,6 +364,28 @@
             ]
           },
           {
+            "name": "Tree Roots",
+            "item_count": 1,
+            "map_locations": [
+              {
+                "map": "naturalregion_map",
+                "x": 3214,
+                "y": 1350
+              }
+            ],
+            "sections": [
+              {
+                "name": "Link Door:\nMausoleum",
+                "item_height": 1,
+                "item_width": 1,
+                "hosted_item": "linkdoor",
+                "access_rules": ["total:2,cabin_room"],
+                "chest_unopened_img": "images/icons/empty.png",
+                "chest_opened_img": "images/icons/empty.png",
+              }
+            ]
+          },
+          {
             "name": "Tree",
             "item_count": 1,
             "map_locations": [
@@ -504,6 +535,15 @@
             ],
             "sections": [
               {
+                "name": "Link Door:\nBell Tower",
+                "item_height": 1,
+                "item_width": 1,
+                "hosted_item": "linkdoor",
+                "access_rules": ["belltower_room"],
+                "chest_unopened_img": "images/icons/empty.png",
+                "chest_opened_img": "images/icons/empty.png",
+              },
+              {
                 "name": "Golden Cube",
                 "chest_unopened_img": "images/icons/golden.png",
                 "chest_opened_img": "images/icons/golden_collected.png",
@@ -562,6 +602,15 @@
               }
             ],
             "sections": [
+              {
+                "name": "Link Door:\nFive Towers",
+                "item_height": 1,
+                "item_width": 1,
+                "hosted_item": "linkdoor",
+                "access_rules": ["arch_room"],
+                "chest_unopened_img": "images/icons/empty.png",
+                "chest_opened_img": "images/icons/empty.png",
+              },
               {
                 "name": "Anti-Cube",
                 "chest_unopened_img": "images/icons/anti.png",
@@ -690,6 +739,14 @@
               }
             ],
             "sections": [
+              {
+                "name": "Link Door:\nNature Hub",
+                "item_height": 1,
+                "item_width": 1,
+                "hosted_item": "linkdoor",
+                "chest_unopened_img": "images/icons/empty.png",
+                "chest_opened_img": "images/icons/empty.png",
+              },
               {
                 "name": "Golden Cube",
                 "chest_unopened_img": "images/icons/golden.png",

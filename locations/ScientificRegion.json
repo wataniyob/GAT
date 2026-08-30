@@ -16,6 +16,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nObservatory",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",
@@ -85,6 +93,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nZu Library",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Chest",
             "chest_unopened_img": "images/icons/chest.png",
             "chest_opened_img": "images/icons/chest_collected.png",
@@ -102,6 +118,15 @@
           }
         ],
         "sections": [
+          {
+            "name": "Link Door:\nVisitor",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "access_rules": ["turn_objects"],
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
           {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",
@@ -264,6 +289,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nZu City Ruins",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",
@@ -320,6 +353,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nThrone",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Golden Cube",
             "chest_unopened_img": "images/icons/golden.png",
             "chest_opened_img": "images/icons/golden_collected.png",
@@ -363,6 +404,14 @@
           }
         ],
         "sections": [
+          {
+            "name": "Link Door:\nPurple Lodge Ruin",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
           {
             "name": "Golden Cube",
             "chest_unopened_img": "images/icons/golden.png",

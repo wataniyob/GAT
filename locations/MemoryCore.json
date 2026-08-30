@@ -1,5 +1,28 @@
 [
   {
+    "name": "Memory Core",
+    "item_count": 1,
+    "access_rules": ["total:2"],
+    "map_locations": [
+      {
+        "map": "memorycore_map",
+        "x": 2916,
+        "y": 809
+      }
+    ],
+    "sections": [
+      {
+      "name": "Link Door:\nPivot Watertower",
+      "item_height": 1,
+      "item_width": 1,
+      "hosted_item": "linkdoor",
+      "access_rules": ["total:2,lighthouse_room,turn_objects"],
+      "chest_unopened_img": "images/icons/empty.png",
+      "chest_opened_img": "images/icons/empty.png",
+      }
+    ]
+  },
+  {
     "name": "WALL VILLAGE",
     "item_count": 1,
     "access_rules": ["total:4"],

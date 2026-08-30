@@ -34,6 +34,15 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nSewer Fork",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "access_rules": ["sewerpillars_room"],
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit 1",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png"
@@ -203,6 +212,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nSewer Hub",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Anti-Cube\nLT LT LT RT LT RT LT RT",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
@@ -227,6 +244,14 @@
           }
         ],
         "sections": [
+          {
+            "name": "Link Door:\nNu Zu Abandoned B",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
           {
             "name": "Lava Entrance\nRight Up Left Down A LT RT A",
             "item_height": 1,
