@@ -1,4 +1,4 @@
-# ![thumbnail](images/icon.png) Gomez Automated Tracker - A PopTracker pack for FezAP
+# ![thumbnail](images/icon.png) Gomez Automated Tracker <br/> ┃ A PopTracker pack for FezAP
 
 ## Quick Links
 - [Archipelago](https://archipelago.gg/)
@@ -8,16 +8,12 @@
 
 ## About
 This is the PopTracker Pack for FezAP, the Archipelago integration mod for Fez.
+
 To connect to an Archipelago game, click on the [AP] button at the top, then fill the information.
-
-**The Auto Tab Switching function does not currently function because an implementation on the FezAP side is needed.**
-*You can build yourself a compatible version from [here](https://github.com/maYayoh/fez-ap/tree/tracker) if you really want the feature right now.*
-
 
 ## Requirements
 [PopTracker v0.26.2 or greater](https://github.com/black-sliver/PopTracker/releases)
 
 ## Installation
-
 1. Download the latest release.
 2. Place the downloaded zip file in the PopTracker packs directory.
