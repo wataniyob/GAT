@@ -16,6 +16,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nObservatory",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",
@@ -37,6 +45,7 @@
             "name": "Anti-Cube\n▀ ▀ █ ▄ ▄",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["carry"],
           }
         ]
       },
@@ -55,6 +64,10 @@
             "name": "Anti-Cube\nLeft Left Down Down Right Right Up Up",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": [
+              "[know_tetro],[nuzu_school],[sunglasses]", 
+              "[know_tetro],[skip_knowledge]", 
+              "[not_scrambled],[skip_knowledge]"]
           },
           {
             "name": "Cube Bit 1",
@@ -80,6 +93,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nZu Library",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Chest",
             "chest_unopened_img": "images/icons/chest.png",
             "chest_opened_img": "images/icons/chest_collected.png",
@@ -97,6 +118,15 @@
           }
         ],
         "sections": [
+          {
+            "name": "Link Door:\nVisitor",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "access_rules": ["turn_objects"],
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
           {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",
@@ -139,9 +169,7 @@
         ],
         "sections": [
           {
-            "name": "Anti-Cube\nRT RT LT RT LT LT LT RT",
-            "chest_unopened_img": "images/icons/anti.png",
-            "chest_opened_img": "images/icons/anti_collected.png",
+            "ref": "Others/Parlor Anti-Cube\nRT RT LT RT LT LT LT RT"
           }
         ]
       },
@@ -198,7 +226,7 @@
             "chest_opened_img": "images/icons/bit_collected.png",
           },
           {
-            "ref": "SEWERS/Sewer QR/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
+            "ref": "Others/Throne/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
           }
         ]
       },
@@ -217,30 +245,35 @@
             "name": "Golden Cube",
             "chest_unopened_img": "images/icons/golden.png",
             "chest_opened_img": "images/icons/golden_collected.png",
+            "access_rules": ["turn_objects"],
           },
           {
             "name": "Minute Anti-Cube",
             "visibility_rules": ["clock_shuffle"],
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["turn_objects"],
           },
           {
             "name": "Hour Anti-Cube",
             "visibility_rules": ["clock_shuffle"],
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["turn_objects"],
           },
           {
             "name": "Day Anti-Cube",
             "visibility_rules": ["clock_shuffle"],
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["turn_objects"],
           },
           {
             "name": "Week Anti-Cube",
             "visibility_rules": ["clock_shuffle"],
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["turn_objects"],
           }
         ]
       },
@@ -256,6 +289,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nZu City Ruins",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",
@@ -265,6 +306,7 @@
       {
         "name": "Globe",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -283,6 +325,7 @@
       {
         "name": "Globe Int",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -310,6 +353,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nThrone",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Golden Cube",
             "chest_unopened_img": "images/icons/golden.png",
             "chest_opened_img": "images/icons/golden_collected.png",
@@ -331,17 +382,20 @@
             "name": "Anti-Cube\nRight RT Left RT RT A A Right",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["[know_tetro],[nuzu_school],[turn_objects]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
           },
           {
             "name": "Telescope Heart Cube\nRT LT LT RT RT LT",
             "chest_unopened_img": "images/icons/heart.png",
             "chest_opened_img": "images/icons/heart_collected.png",
+            "access_rules": ["[know_tetro],[turn_objects]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[turn_objects]", "[not_scrambled],[skip_knowledge]"]
           }
         ]
       },
       {
         "name": "Visitor",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -350,6 +404,14 @@
           }
         ],
         "sections": [
+          {
+            "name": "Link Door:\nPurple Lodge Ruin",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
           {
             "name": "Golden Cube",
             "chest_unopened_img": "images/icons/golden.png",
@@ -365,6 +427,7 @@
       {
         "name": "Code Machine",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -377,12 +440,14 @@
             "name": "Anti-Cube\nUp A RT LT A Down LT RT",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
           }
         ]
       },
       {
         "name": "Orrery B",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "scientificregion_map",
@@ -417,11 +482,13 @@
         "name": "Anti-Cube\nLT A RT Up Down LT RT A",
         "chest_unopened_img": "images/icons/anti.png",
         "chest_opened_img": "images/icons/anti_collected.png",
+        "access_rules": ["[know_tetro],[nuzu_school],[sunglasses]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
       },
       {
         "name": "Chest",
         "chest_unopened_img": "images/icons/chest.png",
         "chest_opened_img": "images/icons/chest_collected.png",
+        "access_rules": ["[tree_map]", "[skip_knowledge]"]
       }
     ]
   }

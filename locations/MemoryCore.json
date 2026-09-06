@@ -1,5 +1,28 @@
 [
   {
+    "name": "Memory Core",
+    "item_count": 1,
+    "access_rules": ["total:2"],
+    "map_locations": [
+      {
+        "map": "memorycore_map",
+        "x": 2916,
+        "y": 809
+      }
+    ],
+    "sections": [
+      {
+      "name": "Link Door:\nPivot Watertower",
+      "item_height": 1,
+      "item_width": 1,
+      "hosted_item": "linkdoor",
+      "access_rules": ["total:2,lighthouse_room,turn_objects"],
+      "chest_unopened_img": "images/icons/empty.png",
+      "chest_opened_img": "images/icons/empty.png",
+      }
+    ]
+  },
+  {
     "name": "WALL VILLAGE",
     "item_count": 1,
     "access_rules": ["total:4"],
@@ -135,6 +158,7 @@
             "name": "Anti-Cube\nUp Left RT A LT Right A Down",
             "chest_unopened_img": "images/icons/anti.png",
             "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"]
           }
         ]
       }
@@ -240,7 +264,7 @@
             "chest_opened_img": "images/icons/bit_collected.png",
           },
           {
-            "ref": "SEWERS/Sewer QR/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
+            "ref": "Others/Throne/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
           }
         ]
       }
@@ -252,17 +276,9 @@
     "item_count": 1,
     "sections": [
       {
-        "name": "Goal - 32 Cubes",
-        "access_rules": ["total:32"],
-        "visibility_rules": ["32c"],
-        "chest_unopened_img": "images/32c.png",
-        "chest_opened_img": "images/stars.png"
-      },
-      {
-        "name": "Goal - 64 Cubes",
-        "access_rules": ["total:64"],
-        "visibility_rules": ["64c"],
-        "chest_unopened_img": "images/64c.png",
+        "name": "Goal",
+        "access_rules": ["$checkGoal"],
+        "chest_unopened_img": "images/goal.png",
         "chest_opened_img": "images/stars.png"
       }
     ],

@@ -1,25 +1,11 @@
 [
   {
     "name": "Goal",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "initial_stage_idx": 0,
+    "type": "consumable",
+    "img": "images/goal.png",
     "codes": "goal",
-    "stages": [
-      {
-        "name": "32 Cube Ending",
-        "img": "images/32c.png",
-        "codes": "32c",
-        "inherit_codes": false
-      },
-      {
-        "name": "64 Cube Ending",
-        "img": "images/64c.png",
-        "codes": "64c",
-        "inherit_codes": false
-      }
-    ]
+    "min_quantity": 32,
+    "max_quantity": 64
   },
   {
     "name": "Knowledge Logic",
@@ -30,13 +16,57 @@
     "codes": "knowledge",
     "stages": [
       {
-        "name": "Knowledge Logic Enabled",
-        "img": "images/knowledge.png"
+        "img": "images/knowledge.png",
+        "img_mods": "@disabled",
+        "codes": "skip_knowledge",
+        "inherit_codes": false
       },
       {
-        "name": "Knowledge Logic Disabled",
         "img": "images/knowledge.png",
-        "img_mods": "@disabled"
+        "codes": "require_knowledge",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shuffled Abilities",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "abilities",
+    "stages": [
+      {
+        "img": "images/hat.png",
+        "img_mods": "@disabled",
+        "codes": "carry, turn_objects",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/hat.png",
+        "codes": "shuffled_abilities",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Scrambled Tetrominos",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "scrambled",
+    "stages": [
+      {
+        "img": "images/machine.png",
+        "img_mods": "@disabled",
+        "codes": "not_scrambled",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/machine.png",
+        "codes": "scrambled_tetro",
+        "inherit_codes": false
       }
     ]
   },
@@ -46,6 +76,7 @@
     "loop": true,
     "allow_disabled": false,
     "initial_stage_idx": 0,
+    "codes": "clock",
     "stages": [
       {
         "img": "images/clock.png",
@@ -80,14 +111,14 @@
     "codes": "autoswitch",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 1,
+    "initial_stage_idx": 0,
     "stages": [
-      {
-        "img": "images/autoswitch.png"
-      },
       {
         "img": "images/autoswitch.png",
         "img_mods": "@disabled"
+      },
+      {
+        "img": "images/autoswitch.png"
       }
     ]
   }

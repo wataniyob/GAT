@@ -106,6 +106,7 @@
       {
         "name": "Skull B",
         "item_count": 1,
+        "access_rules": ["turn_objects"],
         "map_locations": [
           {
             "map": "cemetery_map",
@@ -175,6 +176,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nTree Roots",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit 1",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",
@@ -204,7 +213,10 @@
       {
         "name": "Tree of Death",
         "item_count": 1,
-        "access_rules": ["mausoleum_room"],
+        "access_rules": [
+          "mausoleum_room,[cryptA_map],[cryptB_map],[cryptC_map],[cryptD_map]", 
+          "mausoleum_room,[skip_knowledge]"
+        ],
         "map_locations": [
           {
             "map": "cemetery_map",
@@ -268,6 +280,7 @@
             "name": "Cube Bit 3",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",
+            "access_rules": ["carry"],
           }
         ]
       },
@@ -302,6 +315,7 @@
       {
         "name": "Grave Lesser Gate",
         "item_count": 1,
+        "access_rules": ["carry"],
         "map_locations": [
           {
             "map": "cemetery_map",

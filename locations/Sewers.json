@@ -2,11 +2,10 @@
   {
     "name": "SEWERS",
     "item_count": 1,
-    "access_rules": ["total:2,lighthouse_room,rail_room"],
+    "access_rules": ["total:2,lighthouse_room,rail_room,turn_objects"],
     "children": [
       {
         "name": "Sewer Start",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -25,7 +24,6 @@
       },
       {
         "name": "Sewer Hub",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -35,6 +33,15 @@
           }
         ],
         "sections": [
+          {
+            "name": "Link Door:\nSewer Fork",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "access_rules": ["sewerpillars_room"],
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
           {
             "name": "Cube Bit 1",
             "chest_unopened_img": "images/icons/bit.png",
@@ -49,7 +56,6 @@
       },
       {
         "name": "Sewer Treasure One",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -68,7 +74,6 @@
       },
       {
         "name": "Sewer Pivot",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -108,15 +113,12 @@
             "chest_opened_img": "images/icons/bit_collected.png"
           },
           {
-            "name": "Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT",
-            "chest_unopened_img": "images/icons/anti.png",
-            "chest_opened_img": "images/icons/anti_collected.png"
+            "ref": "Others/Throne/Throne Anti-Cube\r\nRT RT LT RT RT RT LT LT\r\nRT LT LT LT RT LT RT LT"
           }
         ]
       },
       {
         "name": "Sewer Geyser",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -135,7 +137,6 @@
       },
       {
         "name": "Sewer Pillars",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -164,7 +165,6 @@
       },
       {
         "name": "Sewer Treasure Two",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -183,7 +183,6 @@
       },
       {
         "name": "Sewer Lesser Gate B",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -213,9 +212,18 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nSewer Hub",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Anti-Cube\nLT LT LT RT LT RT LT RT",
             "chest_unopened_img": "images/icons/anti.png",
-            "chest_opened_img": "images/icons/anti_collected.png"
+            "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["[know_tetro]", "[not_scrambled]"]
           },
           {
             "name": "Cube Bit",
@@ -227,7 +235,6 @@
       },
       {
         "name": "Sewer to Lava",
-        "access_rules": [],
         "item_count": 1,
         "map_locations": [
           {
@@ -238,6 +245,22 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nNu Zu Abandoned B",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
+            "name": "Lava Entrance\nRight Up Left Down A LT RT A",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "sequence",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png"
@@ -246,7 +269,7 @@
       },
       {
         "name": "Lava Fork",
-        "access_rules": [],
+        "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[scrambled_tetro]", "[skip_knowledge]"],
         "item_count": 1,
         "map_locations": [
           {
@@ -259,13 +282,14 @@
           {
             "name": "Anti-Cube\nLT LT RT LT LT RT RT RT",
             "chest_unopened_img": "images/icons/anti.png",
-            "chest_opened_img": "images/icons/anti_collected.png"
+            "chest_opened_img": "images/icons/anti_collected.png",
+            "access_rules": ["[know_tetro]", "[not_scrambled]"]
           }
         ]
       },
       {
         "name": "Lava Skull",
-        "access_rules": [],
+        "access_rules": ["[know_tetro],[nuzu_school]", "[know_tetro],[skip_knowledge]", "[not_scrambled],[skip_knowledge]"],
         "item_count": 1,
         "map_locations": [
           {

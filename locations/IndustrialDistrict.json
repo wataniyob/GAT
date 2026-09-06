@@ -2,8 +2,30 @@
   {
     "name": "INDUSTRIAL DISTRICT",
     "item_count": 1,
-    "access_rules": ["total:2,lighthouse_room"],
+    "access_rules": ["total:2,lighthouse_room,turn_objects"],
     "children": [
+      {
+        "name": "Industrial Hub",
+        "item_count": 1,
+        "map_locations": [
+          {
+            "map": "industrialdistrict_map",
+            "x": 2286,
+            "y": 1556
+          }
+        ],
+        "sections": [
+          {
+            "name": "Link Door:\nWell 2",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "access_rules": ["total:2,lighthouse_room,rail_room,turn_objects"],
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          }
+        ]
+      },
       {
         "name": "Pivot Watertower",
         "item_count": 1,
@@ -16,6 +38,14 @@
         ],
         "sections": [
           {
+            "name": "Link Door:\nMemory Core",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
+          {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",
             "chest_opened_img": "images/icons/bit_collected.png",
@@ -24,6 +54,29 @@
             "name": "Chest",
             "chest_unopened_img": "images/icons/chest.png",
             "chest_opened_img": "images/icons/chest_collected.png",
+            "access_rules": ["[pivot_map]", "[skip_knowledge]"]
+          }
+        ]
+      },
+      {
+        "name": "Well 2",
+        "item_count": 1,
+        "access_rules": ["total:2,lighthouse_room,rail_room,turn_objects"],
+        "map_locations": [
+          {
+            "map": "industrialdistrict_map",
+            "x": 1246,
+            "y": 2196
+          }
+        ],
+        "sections": [
+          {
+            "name": "Link Door:\nIndustrial Hub",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
           }
         ]
       },
@@ -84,6 +137,15 @@
           }
         ],
         "sections": [
+          {
+            "name": "Link Door:\nSewer to Lava",
+            "item_height": 1,
+            "item_width": 1,
+            "hosted_item": "linkdoor",
+            "access_rules": ["total:2,lighthouse_room,rail_room,turn_objects"],
+            "chest_unopened_img": "images/icons/empty.png",
+            "chest_opened_img": "images/icons/empty.png",
+          },
           {
             "name": "Cube Bit",
             "chest_unopened_img": "images/icons/bit.png",

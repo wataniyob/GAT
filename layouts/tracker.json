@@ -14,13 +14,11 @@
                             "type": "dock",
                             "content": [
                                 {
-                                    "type": "group",
-                                    "header": "Collectibles",
+                                    "type": "dock",
                                     "dock": "top",
-                                    "h_alignment": "center",
                                     "content": {
                                         "type": "layout",
-                                        "key": "collectibles"
+                                        "key": "collectibles_and_abilities"
                                     }
                                 },
                                 {

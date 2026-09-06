@@ -13,7 +13,7 @@
     "img": "images/items/golden.png",
     "codes": "golden",
     "overlay_background": "#000000",
-    "max_quantity": 32
+    "max_quantity": 64
   },
   {
     "name": "Anti-Cubes",
@@ -22,6 +22,14 @@
     "codes": "anti",
     "overlay_background": "#000000",
     "max_quantity": 32
+  },
+    {
+    "name": "Cube Bits",
+    "type": "consumable",
+    "img": "images/items/bit.png",
+    "codes": "bit",
+    "overlay_background": "#000000",
+    "max_quantity": 8
   },
   {
     "name": "Heart Cubes",
@@ -77,7 +85,7 @@
     "codes": "cabin_room"
   },
   {
-    "name": "Tree Door Unlocked",
+    "name": "Tree Crumble Door Unlocked",
     "type": "toggle",
     "img": "images/items/door_tree.png",
     "codes": "tree_room"
@@ -107,13 +115,13 @@
     "codes": "mausoleum_room"
   },
   {
-    "name": "Sewer Hub Door Unlocked",
+    "name": "Sewer QR Door Unlocked",
     "type": "toggle",
     "img": "images/items/door_sewer.png",
     "codes": "sewerhub_room"
   },
   {
-    "name": "Sewer Pillars Door Unlocked",
+    "name": "Sewer Fork Door Unlocked",
     "type": "toggle",
     "img": "images/items/door_pillars.png",
     "codes": "sewerpillars_room"
@@ -197,5 +205,27 @@
     "type": "toggle",
     "img": "images/items/map_ritual.png",
     "codes": "ritual_map"
+  },
+  {
+    "name": "Carry",
+    "type": "toggle",
+    "img": "images/items/crate.png",
+    "codes": "carry"
+  },
+  {
+    "name": "Turn Objects",
+    "type": "toggle",
+    "img": "images/items/pivot.png",
+    "codes": "turn_objects"
+  },
+  {
+    "name": "Door Sequence",
+    "type": "static",
+    "codes": "sequence"
+  },
+  {
+    "name": "Link Door",
+    "type": "static",
+    "codes": "linkdoor"
   }
 ]
